@@ -3,12 +3,20 @@ body {
     background-color: rgb(255 255 255);
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 header{
-
-    background-color: red;
+ 
     display: flex;
+    align-items: center;
+    background-image: url(../assets/images/WhatsApp\ Image\ 2026-11-09\ at\ 3.24.42\ PM.jpeg);
+    justify-content: space-around;
+    height: 800px;
+    background-size: cover;
+    font-size: 80px;
+   
+    
 }
 
 #div1 {
@@ -28,11 +36,85 @@ header{
 
 }
 
+.section1 {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+    width: 800px;
+
+}
+
+.section1 img {
+
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.section2 {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+    width: 800px;
+}
+
+.section2 img {
+
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+    
+}
+
+#fullbody {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 {
+
+    color: rgb(255 255 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url(../assets/images/WhatsApp\ Image\ 2026-11-09\ at\ 3.24.43\ PM.jpeg);
+    height: 500px;
+    background-size: cover;
+    
+}
+
+.section3 article {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+    padding: 80px;
+
+
+}
+
 #footer1 {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: rgb(255 78 90);
+    color: rgb(255 255 255);
 
 }
 
@@ -40,12 +122,31 @@ header{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px;
 }
 
 #footer2 {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(255 78 90);
+    color: rgb(255 255 255);
+}
+
+a {
+
+    color: rgb(255 255 255);
+   text-decoration: none;
+   background-color: red;
+
+}
+
+a :hover{
+
+    background-color: pink;
+    color: rgb(000 000 000);
+    border-radius: 5px;
 }
