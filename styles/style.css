@@ -1,0 +1,51 @@
+body {
+
+    background-color: rgb(255 255 255);
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+
+    background-color: red;
+    display: flex;
+}
+
+#div1 {
+
+    color: rgba(255, 255, 255, 0.437);
+
+}
+
+#div2 {
+
+    color: rgb(255 255 255);
+}
+
+#div3 {
+
+    color: rgba(255, 255, 255, 0.437);
+
+}
+
+#footer1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#footer1 article {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
