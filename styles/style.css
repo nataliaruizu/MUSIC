@@ -3,7 +3,7 @@ body {
     background-color: rgb(255 255 255);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    font-family: sans-serif;
 }
 
 header{
@@ -36,43 +36,37 @@ header{
 
 }
 
-.section1 {
+#fullbody {
 
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    padding: 70px;
-    width: 800px;
+    width: 100%;
+}
+
+.section1, .section2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 80px;
+    width: 85%;
+    max-width: 1000px;
 
 }
 
-.section1 img {
+.section1 img, .section2 img{
 
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px;
-
-}
-
-.section2 {
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    width: 400px;
+    height: auto;
     padding: 70px;
-    width: 800px;
-}
 
-.section2 img {
-
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 70px;
     
+}
+
+.section2 p, .section1 p {
+
+    padding: 30px;
 }
 
 #fullbody {
@@ -81,6 +75,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .section3 {
@@ -93,6 +88,7 @@ header{
     background-image: url(../assets/images/WhatsApp\ Image\ 2026-11-09\ at\ 3.24.43\ PM.jpeg);
     height: 500px;
     background-size: cover;
+    width: 100%;
     
 }
 
@@ -102,9 +98,8 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 400px;
-    padding: 80px;
-
+    max-width: 500px;
+    padding: 70px;
 
 }
 
@@ -115,6 +110,7 @@ header{
     justify-content: center;
     background-color: rgb(255 78 90);
     color: rgb(255 255 255);
+    width: 100%;
 
 }
 
@@ -134,19 +130,25 @@ header{
     padding: 20px;
     background-color: rgb(255 78 90);
     color: rgb(255 255 255);
+    width: 100%;
 }
 
 a {
 
     color: rgb(255 255 255);
    text-decoration: none;
-   background-color: red;
+   background-color: rgb(240 100 100);
+   padding: 12px 25px;
+   font-weight: bold;
+   font-size: 13px;
+   margin-top: 15px;
+   border-radius: 20px;
 
 }
 
-a :hover{
+a:hover {
 
-    background-color: pink;
+    background-color: rgb(240 180 180);
     color: rgb(000 000 000);
-    border-radius: 5px;
+    border-radius: 20px;
 }
