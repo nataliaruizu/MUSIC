@@ -4,6 +4,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    width: 100%;
+    margin: 0;
 }
 
 header{
@@ -14,7 +16,9 @@ header{
     justify-content: space-around;
     height: 800px;
     background-size: cover;
-    font-size: 80px;
+    font-size: 90px;
+    width: 100%;
+    aspect-ratio: 12/5;
    
     
 }
@@ -41,33 +45,74 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
+    padding: 30px 0;
 }
 
-.section1, .section2 {
+.section1 {
 
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding: 80px;
-    width: 85%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px;
 
 }
 
-.section1 img, .section2 img{
+.section1 h2 {
+
+    font-size: 50px;
+}
+
+.section1 img {
 
     width: 400px;
     height: auto;
-    padding: 70px;
+    padding: 70px 30px 70px 0;
 
     
 }
 
-.section2 p, .section1 p {
+.section1 p {
 
-    padding: 30px;
+    width: 70%;
+    padding: 0 0 25px 0;
+    line-height: 30px;
 }
+
+.section2 img {
+
+     width: 400px;
+    height: auto;
+    padding: 70px 300px 70px 10px;
+
+}
+
+.section2 h2 {
+
+    font-size: 50px;
+}
+
+.section2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px;
+
+}
+
+.section2 p {
+
+    width: 90%;
+    padding: 0 0 25px 0;
+    line-height: 30px;
+}
+
 
 #fullbody {
 
@@ -76,6 +121,7 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
+
 }
 
 .section3 {
@@ -88,7 +134,9 @@ header{
     background-image: url(../assets/images/WhatsApp\ Image\ 2026-11-09\ at\ 3.24.43\ PM.jpeg);
     height: 500px;
     background-size: cover;
+    aspect-ratio: 12/5;
     width: 100%;
+    height: auto;
     
 }
 
@@ -103,18 +151,31 @@ header{
 
 }
 
-#footer1 {
+.section3 p {
+
+    padding: 0 0 25px 0;
+    width: 90%;
+    line-height: 30px;
+}
+
+.section3 h2 {
+
+    font-size: 50px;
+
+}
+
+.footer1 {
 
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(255 78 90);
+    background-color: transparent;
     color: rgb(255 255 255);
     width: 100%;
 
 }
 
-#footer1 article {
+.footer1 article {
 
     display: flex;
     flex-direction: column;
@@ -122,15 +183,15 @@ header{
     padding: 40px;
 }
 
-#footer2 {
+.footer2 {
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 20px;
-    background-color: rgb(255 78 90);
+    background-color: transparent;
     color: rgb(255 255 255);
     width: 100%;
+    padding: 10px 0 10px 0;
 }
 
 a {
@@ -141,7 +202,6 @@ a {
    padding: 12px 25px;
    font-weight: bold;
    font-size: 13px;
-   margin-top: 15px;
    border-radius: 20px;
 
 }
@@ -151,4 +211,10 @@ a:hover {
     background-color: rgb(240 180 180);
     color: rgb(000 000 000);
     border-radius: 20px;
+}
+
+#fullfooter {
+
+    height: 100%;
+    background: linear-gradient(135deg, #ff4b5c 55%, #ff2a5d 73%);
 }
